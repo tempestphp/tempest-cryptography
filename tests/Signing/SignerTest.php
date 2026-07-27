@@ -92,7 +92,7 @@ final class SignerTest extends TestCase
             minimumExecutionDuration: false,
         ));
 
-        $signer->sign('important data');
+        $signed = $signer->sign('important data');
     }
 
     #[Test]
